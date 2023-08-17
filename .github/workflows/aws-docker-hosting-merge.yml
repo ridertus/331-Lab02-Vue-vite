@@ -41,7 +41,7 @@ jobs:
                     target: "/home/ubuntu/lab6"
             -   
                 name: docker compose
-                uses: applyboy/ssh-action@v0.1.10
+                uses: appleboy/ssh-action@v0.1.10
                 with:
                     host: ${{secrets.HOST_SERVER}}
                     username: ${{secrets.HOST_USER_NAME}}
