@@ -1,6 +1,6 @@
 version: '3.9'
 services:
   web:
-    image: "ridertus/se331-lab6:latest"
+    image: "ridertus/331-lab6:latest"
     ports:
       - 80:80
