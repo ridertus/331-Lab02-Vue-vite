@@ -28,7 +28,7 @@ jobs:
                 with:
                     content: .
                     push: true
-                    tags: dto80/331-lab6:latest
+                    tags: ridertus/331-lab6:latest
             -   
                 name: copy file via ssh password
                 uses: appleboy/scp-action@v0.1.4
